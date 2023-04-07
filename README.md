@@ -6,6 +6,14 @@ What Is Terraform?
 
 Terraform is an IAC tool, used primarily by DevOps teams to automate various infrastructure tasks. The provisioning of cloud resources, for instance, is one of the main use cases of Terraform. It’s a cloud-agnostic, open-source provisioning tool written in the Go language and created by HashiCorp.
 
+Terraform is an IAC tool, used primarily by DevOps teams to automate various infrastructure tasks. 
+The provisioning of cloud resources, for instance, is one of the main use cases of Terraform. 
+It’s a cloud-agnostic, open-source provisioning tool written in the Go language and created by HashiCorp.
+
+Amazon S3 is an object storage service for scalability, data availability, security, and performance.
+Every object in S3 is stored in a bucket. 
+To upload files and folders to S3, you’ll need to create a bucket where the objects will be stored.
+
 The importance of Terraform?
 
 - an infrastructure as code (IaC) tool that lets you build,change and version both cloud and on-premises resources.
@@ -61,15 +69,6 @@ https://registry.terraform.io/
 
 Installed version:
   terraform.x86_64 0:1.4.4-1                                                                                                                                                                                                                      
-#STEPS
-
-
-After Terraform is installed via CLI do the following:
-upload the main.tf file through amazon console https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1&region=us-east-1 
-run 'terraform init'
-run 'terraform plan'
-run 'terraform apply'
-
 # Hands-on with AWS and Terraform
 
 # Terraform Configuration File (main.tf)
