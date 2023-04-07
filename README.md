@@ -33,8 +33,6 @@ Usefulness of Terraform in Devops Career
 
 Benefits of Infrastructure-as-Code (IaC)
 
-Author : sabur olamilekan yinus | sabur.yinus@gmail.com
-
 IaC replaces standard operating procedures and manual effort required for IT resource management with lines of code. Instead of manually configuring cloud nodes or physical hardware, IaC automates the process infrastructure management through source code.
 
 Here are several of the major key benefits of using an IaC solution like Terraform:
@@ -169,3 +167,5 @@ restrict_public_buckets = true
 
 If the Cloud Shell AWS CLI token session expires, run any AWS CLI to refresh it. Example:
 aws s3 ls s3://tcb-app-qa-jr
+
+Author : sabur olamilekan yinus | sabur.yinus@gmail.com in collaboration with @Jean Rodrigues.
